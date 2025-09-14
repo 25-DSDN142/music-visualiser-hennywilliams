@@ -5,12 +5,18 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 background(222, 173, 207); //pink main background
 
 if(firstRun) {
-myImage = loadImage('A_boombox1.png')
+myImage = loadImage('A_boombox1.png') //bottom right side image
 
 firstRun = false;
 
 }
 
 image(myImage,260,110);
+
+
+
+
+
+
 
 }
