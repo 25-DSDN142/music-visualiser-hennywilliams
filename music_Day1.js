@@ -18,12 +18,22 @@ fill(252, 184, 88);
 ellipse(331,-20+Ymove,5);
 ellipse(463,-50+Ymove,8);
 ellipse(400,-70+Ymove,12);
+ellipse(560,-80+Ymove,5);
+ellipse(230,-100+Ymove,8);
+ellipse(10,-10+Ymove,8);
+ellipse(600,-30+Ymove,8);
+ellipse(360,-120+Ymove,8);
+ellipse(150,-0+Ymove,8);
+ellipse(20,-150+Ymove,8);
+ellipse(70,-200+Ymove,8);
 
 let rect1Y = map(bass,0,100,250,400);
+let rect2Y = map(vocal,0,100,250,450);
+let rect3Y = map(other,0,100,250,350);
 fill(166, 245, 154,80);
 rect(80,rect1Y,80,270,20);
-rect(170,250,80,270,20);
-rect(260,250,80,270,20);
+rect(170,rect2Y,80,270,20);
+rect(260,rect3Y,80,270,20);
 image(myImage,260,boomboxY);
 
 noStroke();
